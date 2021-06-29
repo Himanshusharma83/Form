@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto',sans-serif;
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1559757175-9e351c9a1301?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) no-repeat;
+	
+
+}
+#form{
+	background-color: #E8E8FA;
+	min-height: 700px;
+	margin-left: 250px;
+
+	padding: 5px 40px 40px 40px;
+}
+.registration{
+font-size: 55px;
+font-family: Agency FB;
+font-weight: 700;
+border-bottom-style:ridge;
+
+}
+.text{
+	height: 43px;
+}
+label{
+	font-size: 18px;
+}
+.main1{
+	font-size: 22px;
+}
+.main{
+	font-size: 19px;
+}
+.name{
+	font-size: 22px;
+}
+.days{
+	margin-top: 15px;
+	font-size: 22px;
+}
+.area{
+	width: 300px;
+	height: 250px;
+}
+<!---RESPONSIVE DESIGN---->
+@media only screen and (min-width:570px ) and (max-width: 793px){
+
+	.area{
+	width: 100px;
+	height: 250px;
+}
+#form{
+	
+min-height: 700px;
+	margin-left: 0px;
+
+	padding: 5px 40px 40px 40px;
+}
+}	
+
+
+
